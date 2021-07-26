@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercises">
+        <item>Squats</item>
+        <item>Bench Press</item>
+        <item>Chest Fly</item>
+        <item>Deadlift</item>
+        <item>Shoulder Press</item>
+        <item>Lat Pulldown</item>
+        <item>Pull Ups</item>
+        <item>Biceps Curls</item>
+        <item>Triceps Pushdown</item>
+        <item>Lateral Raises</item>
+        <item>Barbell Curls</item>
+        <item>Military Press</item>
+        <item>Front Raises</item>
+        <item>Leg Extensions</item>
+        <item>Calf Raises</item>
+        <item>Lunges</item>
+        <item>Preacher Curls</item>
+
+
+    </string-array>
+</resources>

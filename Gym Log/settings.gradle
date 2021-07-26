@@ -1,0 +1,2 @@
+rootProject.name = "Gym Log"
+include ':app'

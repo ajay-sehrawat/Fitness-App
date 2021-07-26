@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gym_guide">
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="606dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/squats_img"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="squatsGuide"
+                app:srcCompat="@drawable/squats_img" />
+
+            <ImageView
+                android:id="@+id/deadlift_img"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="deadliftGuide"
+                app:srcCompat="@drawable/deadlift_img" />
+
+            <ImageView
+                android:id="@+id/biceps_img"
+                android:layout_width="match_parent"
+                android:layout_height="289dp"
+                android:onClick="bicepsGuide"
+                app:srcCompat="@drawable/biceps_curl" />
+
+            <ImageView
+                android:id="@+id/military_img"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:onClick="shoulderGuide"
+                app:srcCompat="@drawable/military_press" />
+
+            <ImageView
+                android:id="@+id/abs_workout"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:onClick="shoulderGuide"
+                app:srcCompat="@drawable/abs" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
